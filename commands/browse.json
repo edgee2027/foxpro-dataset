@@ -1,1 +1,12 @@
+{
+  "command": "BROWSE",
+  "category": "Data Display",
+  "description": "Displays the current table in a grid format for viewing and editing.",
+  "syntax": "BROWSE [FIELDS field_list] [FOR condition] [NOEDIT]",
+  "example": "BROWSE FIELDS name, salary FOR salary > 50000",
+  "output_description": "Displays name and salary fields for records where salary > 50000 in a scrollable window.",
+  "version": "FoxPro 2.6",
+  "source": "FoxPro 2.6 Language Reference, p. 145",
+  "notes": "Use CTRL+W to close the BROWSE window."
+}
 
